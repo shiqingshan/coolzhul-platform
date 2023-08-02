@@ -1,13 +1,11 @@
 server:
-  port: 8081
-
-########数据源配置###########
+  port: 8082
 spring:
   application:
-    name: coolzhul-admin
+    name: coolzhul-workflow
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://192.168.71.102:3306/coolzhul_system?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://192.168.71.102:3306/coolzhul_workflow?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=Asia/Shanghai&nullCatalogMeansCurrent=true
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: 123456
@@ -36,8 +34,6 @@ spring:
       # 合并多个DruidDataSource的监控数据 http://localhost:8100/demo/druid/index.html
       # admin/admin
       useGlobalDataSourceStat: true
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-
+flowable:
+  async-executor-activate: false
+  database-schema-update: true

@@ -18,7 +18,7 @@
         <spring.cloud.alibaba.version>2022.0.0.0-RC1</spring.cloud.alibaba.version>
         <mysql-connector-java.version>8.0.32</mysql-connector-java.version>
         <druid.version>1.2.15</druid.version>
-        <flowable.version>6.8.0</flowable.version>
+        <flowable.version>7.0.0.M1</flowable.version>
     </properties>
 
     <dependencyManagement>

@@ -13,9 +13,9 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.boot.version>3.0.4</spring.boot.version>
-        <spring.cloud.version>2022.0.1</spring.cloud.version>
-        <spring.cloud.alibaba.version>2022.0.0.0-RC1</spring.cloud.alibaba.version>
+        <spring.boot.version>3.0.2</spring.boot.version>
+        <spring.cloud.version>2022.0.0</spring.cloud.version>
+        <spring.cloud.alibaba.version>2022.0.0.0</spring.cloud.alibaba.version>
         <mysql-connector-java.version>8.0.32</mysql-connector-java.version>
         <druid.version>1.2.15</druid.version>
         <flowable.version>7.0.0.M1</flowable.version>

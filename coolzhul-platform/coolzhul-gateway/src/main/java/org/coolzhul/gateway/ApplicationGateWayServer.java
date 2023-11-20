@@ -1,11 +1,12 @@
-package com.coolzhul.workflow;
+package org.coolzhul.gateway;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApplicationWorkflowService {
+public class ApplicationGateWayServer {
     public static void main(String[] args) {
-        SpringApplication.run(ApplicationWorkflowService.class,args);
+        SpringApplication.run(ApplicationGateWayServer.class,args);
     }
 }

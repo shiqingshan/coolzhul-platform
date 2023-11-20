@@ -12,6 +12,9 @@
         <module>coolzhul-dependencies</module>
         <module>coolzhul-admin</module>
         <module>coolzhul-workflow</module>
+        <module>coolzhul-gateway</module>
+        <module>coolzhul-discover</module>
+        <module>coolzhul-common</module>
     </modules>
 
     <properties>

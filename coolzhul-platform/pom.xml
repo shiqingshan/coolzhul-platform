@@ -13,8 +13,8 @@
         <module>coolzhul-admin</module>
         <module>coolzhul-workflow</module>
         <module>coolzhul-gateway</module>
-        <module>coolzhul-discover</module>
         <module>coolzhul-common</module>
+        <module>coolzhul-system</module>
     </modules>
 
     <properties>

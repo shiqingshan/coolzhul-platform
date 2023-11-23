@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
 
     <properties>
+        <coolzhul.version>1.0-SNAPSHOT</coolzhul.version>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -73,6 +74,11 @@
                 <groupId>org.flowable</groupId>
                 <artifactId>flowable-spring-boot-starter</artifactId>
                 <version>${flowable.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.coolzhul</groupId>
+                <artifactId>coolzhul-common</artifactId>
+                <version>${coolzhul.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
